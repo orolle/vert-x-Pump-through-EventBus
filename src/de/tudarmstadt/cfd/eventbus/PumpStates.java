@@ -1,0 +1,5 @@
+package de.tudarmstadt.cfd.eventbus;
+
+public enum PumpStates {
+	START, QUEUESIZE, END, SOURCEPUMPREADY, TARGETPUMPREADY, SOURCEPUMPISFULL, SOURCEPUMPISEMPTY
+}
